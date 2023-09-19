@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* border: 2px solid red; */
+    align-items: start;
+    padding-right: 4%;
+    box-shadow: 0 4px 3px  grey;
+
+}
+.profilenotifs{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+.searchitems{
+    display: flex;
+    padding-top: 15px;
+    gap: 15px;
+}
+.cat{
+    width: 40px;
+    border-radius: 20px;
+}
+.searchbar{
+    border-radius: 15px;
+    background-color: rgba(128, 128, 128, 0.279);
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin-left: 40px;
+    width: 20vw;
+}
+
+.dashboardicon{
+    width: 70px;
+    cursor: pointer;
+}
+.myicon{
+    width: 40px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 0.7fr 4fr;
+    height: 100vh;
+}
+.sidebar{
+    display: grid;
+    grid-row: 1/5;
+    grid-column: 1/2;
+    /* border: 2px solid green; */
+    padding-left: 10%;
+    background-color: skyblue;
+    height: 100%;
+    align-content: start;
+}
+.sidebarItems{
+    display: flex;
+    gap: 10px;
+}
+.userfacilities{
+    margin-top: 15%;
+    background-color: skyblue;
+}
+#dashboardheading{
+    margin-bottom: 12%;
+    margin-left: -4%;
+}
+.myicon{
+    cursor: pointer;
+}
+.myicon+h1{
+    cursor: pointer;
+}
+.dashboardicon+h1{
+    cursor: pointer;
+}
+.lowerheading{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/5;
+    /* border: 4px solid yellow; */
+    justify-content: end;
+}
+.biocat{
+    width: 7%;
+    border-radius: 12px;
+}
+.engageButtons>button{
+    color: black;
+    padding: 10px 26px;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgba(25, 146, 212, 1);
+    border: none;
+    font-weight: bold;
+}
+.bio{
+/* border: 2px solid blue; */
+align-items: center;
+display: flex;
+margin-left: 3%;
+}
+.engageButtons{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* border: 2px solid green; */
+    gap: 20px;
+}
+.bio>.biocat+div{
+    margin-left: 2%;
+    font-weight: bold;
+}
+.bio>div>h1{
+    margin-top: -3%;
+}
+.bio>div>p{
+    font-size: 18px;
+}
+.yourProjects>h3,.announceHeading>h3{
+    font-size: 25px;
+}
+.boxes>.box{
+   border-left: 7px solid #f0b429;
+   height: 300px;
+   margin-bottom: 20px;
+   border-radius: 12px;
+   padding: 20px;
+   background-color: white;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
+    gap: 30px;
+    
+}
+.maincontent{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 3fr 1fr;
+    background-color: #e2e8f0;
+}
+.announceBoxes{
+    display: grid;
+    justify-items: center;
+   padding: 20px 30px;
+   border-radius: 12px;
+   background-color: white;
+   margin-right: 30px;
+}
+.yourProjects{
+    margin-left: 2%;
+}
+.announce{
+    width: 83%;
+}
+.trendingBoxes{
+    display: grid;
+    justify-items: center;
+   padding: 10px;
+   border-radius: 12px;
+   background-color: white;
+   margin-right: 30px;
+}
